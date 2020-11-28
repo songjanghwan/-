@@ -1,1 +1,63 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+	// write your code here
+        Short ss=1;
+        short s;
+
+        int i=1;
+        Integer ii=1;
+        Integer ii1 =127;
+        Integer ii2 = 127;
+        //System.out.println(ii1 == ii2);
+//
+//        long l=1;
+//        Long li = null;
+//
+//        float f;
+//        Float ff = null;
+//        double d;
+//        Double dd;
+//        boolean b = true;
+//        boolean f = false;
+//
+//        char c = 'c';
+//        String str="abc";
+//        //+
+//        int number1 =10;
+//        int number2 =2;
+//        System.out.println(number1+number2);
+//        //-
+//        System.out.println(number1-number2);
+//        //*
+//        System.out.println(number1*number2);
+//        ///
+//        System.out.println(number1/number2);
+//        //%
+//        System.out.println(number1 % number2);
+
+//        int input =0;
+//        input = scanner.nextInt();
+//        System.out.println(input);
+
+        int number1 =0;
+        int number2 = 0;
+        number1 = scanner.nextInt();
+        number2 = scanner.nextInt();
+        System.out.println(number1+number2);
+        //-
+        System.out.println(number1-number2);
+        //*
+        System.out.println(number1*number2);
+        ///
+        System.out.println(number1/number2);
+        //%
+        System.out.println(number1 % number2);
+    }
+}
 
