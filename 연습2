@@ -1,0 +1,66 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+	// write your code here
+//        System.out.print("hi");
+//        System.out.println("hello world");  //newline
+//
+//        String str = scanner.next();
+//        System.out.println(str);
+////
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//
+//        System.out.println(number1+number2);
+//
+//        String str1 = scanner.next();
+//        String str2 = scanner.next();
+//
+//        System.out.println(str1+str2);
+
+//        Float number3 = scanner.nextFloat();
+//        Float number4 = scanner.nextFloat();
+//        System.out.println(number3+number4);
+//
+//        System.out.println(true == true);
+//        System.out.println(true != true);
+//        System.out.println(true == false);
+//        System.out.println(true != false);
+
+        // 입력받은 두개의 정수가 같으면 true 틀리면 false
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//        if(number1 == number2) System.out.println("TRUE");
+//        else System.out.println("FALSE");
+        //두정수 a,b를 입력 받아서 a가 b보다 크면 1을 그렇지 않으면 0을
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//        if(number1>number2) System.out.println("1");
+//        else System.out.println("0");
+        // 두정수 a,b를 입력받아서 a와b가 다르면 0을 같으면 1을
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//        if(number1==number2) System.out.println("1");
+//        else System.out.println("0");
+        // 정수 3개를 입력받아서 짝수만 출력
+//        int number1 = scanner.nextInt();
+//        int number2 = scanner.nextInt();
+//        int number3 = scanner.nextInt();
+//        if(number1%2 == 0) System.out.println(number1);
+//        if(number2%2 == 0) System.out.println(number2);
+//        if(number3%2 == 0) System.out.println(number3);
+        //switch
+        int x =1;
+        switch(x){
+            case 1: System.out.println(x); break;
+            default : break;
+        }
+
+
+
+    }
+}
