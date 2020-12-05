@@ -94,5 +94,29 @@ public class Main {
 //            case 9,10,11 -> System.out.println("fall");
 //            default -> System.out.println("out of range");
 //        }
+// for
+        // 1 초기화
+        // 2 비교(if문)
+        // 3 반복 실행
+        // 4 증감
+//        for(int i =0; i<10; i++){
+//            System.out.println(i);
+//        }
+//        //while
+//        int j =0;
+//        while(j<10){
+//            System.out.println(j);
+//            j++;
+//        }
+        //전위 증가는 행을 출력시키키 전에 증가 후위는 행을 출력시키고 끝나고 증가시킴 .
+        int num =0;
+        System.out.println(++num); //1
+        System.out.println(num++); //1
+        // 후위 이므로 num = 2가됨
+        System.out.println(num);
+        System.out.println(--num); //1
+        System.out.println(num--); //1
+        // num = 0이됨
+        System.out.println(num);
     }
 }
