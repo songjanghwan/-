@@ -66,6 +66,19 @@ public class Main {
 //        for(int i = min; i<=max; i++){
 //            System.out.println(i);
 //        }
-        
+        //배열 선언, 고정적일때는 배열을 사용 다른때는 그렇게 자주 쓰지않음
+        int []numArray = new int[5]; // java
+        int nums[] = new int[5];// 자료입력도 되고 하는데 오래된 선언 c,c++,c#등에서는 이렇게 사용
+         //map 검색이 좋다
+         // list 검색이 좋지않다.
+         // 배열 검색이 좋지않음. 삽입이 가능. 삽입 정렬이 가능
+
+        //변수   변수명
+        //자료형 타입
+        //int    number;
+
+
+        //배열         배열명
+        //자료형 타입 [] numbers;
     }
 }
