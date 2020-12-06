@@ -21,3 +21,15 @@
 //            }
 //            System.out.println();
 //        }
+//로또 프로그램
+        //랜덤 돌리는 프로그램은 아래와 같음
+        // 숫자가 겹치면 안됨
+        int [] numbers = new int[6];
+        Random random = new Random();
+        for (int i=0; i<10; i++){
+            System.out.println(random.nextInt(45)+1);
+        }
+        //for( 변수형 변수명 : 받는 변수)
+        //로또 프로그램 만들기
+        //배열에 숫자를 겹치지 않게 배열에 저장
+        // 오름차순 내림차순 정렬해서 출력
